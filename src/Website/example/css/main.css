@@ -1,0 +1,107 @@
+body {
+    margin-top: 75px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 200px;
+    max-width: 250px;
+    margin-top: -75px;
+    min-height: 100vh;
+    padding-top: 75px;
+    background-color: #202020;
+    color: #fff;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar ul.components {
+    padding: 10px 0;
+}
+
+#sidebar ul p {
+    color: #777777;
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+
+#sidebar ul li a {
+    padding: 5px 10px;
+    font-size: 1em;
+    display: block;
+}
+
+#sidebar .fixed-bottom {
+    padding: 10px;
+    background-color: #090909;
+    width: 200px;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.loginForm {
+    width: 40%;
+    background-color: #202020;
+    margin: auto;
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+
+.loginForm .btn {
+    /* background-color: #1e5b0e; */
+    /* color: white; */
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 25px; 
+}
+
+.loginForm hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+hr.or {
+  border: none;
+  height: 1px;
+  background-image: linear-gradient(to right,  rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+hr.or::after {
+    content: 'OR';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: 50% 50%;
+    background-color: #202020;
+}
+
+.loginForm input {
+    background-color: #464646;
+    border-color: white;
+    color: white;
+    border-radius: 20px;
+}
+
+.loginForm h4 {
+    text-align: center;
+}
+
